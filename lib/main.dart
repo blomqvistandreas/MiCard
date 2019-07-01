@@ -25,6 +25,14 @@ class MyApp extends StatelessWidget {
                     radius: 50,
                     backgroundImage: AssetImage('images/me.jpg'),
                   ),
+                  Text(
+                    'Andreas Blomqvist',
+                    style: TextStyle(
+                        fontFamily: 'Pacifico',
+                        fontSize: 40.0,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
+                  ),
                 ],
               ),
             ),

@@ -1,4 +1,4 @@
-#Mon Jul 01 19:02:05 CEST 2019
+#Mon Jul 01 20:32:03 CEST 2019
 base.0=/Users/andreasblomqvist/Desktop/FlutterProjects/mi_card/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

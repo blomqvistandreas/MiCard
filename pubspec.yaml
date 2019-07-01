@@ -30,3 +30,8 @@ flutter:
 
   assets:
     - images/me.jpg
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf

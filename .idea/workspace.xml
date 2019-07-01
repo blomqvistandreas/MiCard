@@ -7,9 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="636f1568-37ea-4e92-a991-6175243ae511" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/Pacifico-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill.incremental.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill.incremental.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,17 +27,24 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="133">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="19" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pacifico-Regular.ttf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fonts/Pacifico-Regular.ttf">
+          <provider selected="true" editor-type-id="fontseditor">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="315">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -68,9 +79,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
+    <option name="y" value="23" />
     <option name="width" value="1175" />
-    <option name="height" value="808" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -104,6 +115,11 @@
             <path>
               <item name="mi_card" type="b2602c69:ProjectViewProjectNode" />
               <item name="mi_card" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mi_card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mi_card" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -123,6 +139,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/android/images" />
     </key>
@@ -212,25 +229,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1175" height="808" extended-state="0" />
+    <frame x="0" y="23" width="1175" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32889965" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.4986761" visible="true" weight="0.32819074" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4986761" weight="0.32911393" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50132394" side_tool="true" visible="true" weight="0.32819074" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39276257" side_tool="true" visible="true" weight="0.32348806" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="7" sideWeight="0.49928468" weight="0.32889965" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.60812" weight="0.32398316" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6072374" visible="true" weight="0.32348806" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4985694" weight="0.32889965" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" weight="0.37988827" />
       <window_info anchor="right" id="Flutter Outline" order="3" weight="0.32921448" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990991" visible="true" weight="0.24095322" />
-      <window_info id="Structure" order="1" sideWeight="0.5009009" side_tool="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.24095322" />
+      <window_info id="Structure" order="1" sideWeight="0.5031185" side_tool="true" visible="true" weight="0.24095322" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -310,17 +327,32 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/Muli/Muli-BlackItalic.ttf">
+      <provider selected="true" editor-type-id="fontseditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/Muli/Muli-Black.ttf">
+      <provider selected="true" editor-type-id="fontseditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/Pacifico-Regular.ttf">
+      <provider selected="true" editor-type-id="fontseditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="315">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="133">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
