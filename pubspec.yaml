@@ -32,6 +32,13 @@ flutter:
     - images/me.jpg
 
   fonts:
+    - family: Cinzel
+      fonts:
+        - asset: fonts/Cinzel-Regular.ttf
+
     - family: Pacifico
       fonts:
         - asset: fonts/Pacifico-Regular.ttf
+
+
+

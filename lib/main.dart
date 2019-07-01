@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       home: Scaffold(
-          backgroundColor: Color_RedRose1,
+          backgroundColor: Color_RedRose4,
           body: SafeArea(
             child: Center(
               child: Column(
@@ -25,13 +25,24 @@ class MyApp extends StatelessWidget {
                     radius: 50,
                     backgroundImage: AssetImage('images/me.jpg'),
                   ),
+                  SizedBox(
+                    height: 20,
+                  ),
                   Text(
                     'Andreas Blomqvist',
                     style: TextStyle(
-                        fontFamily: 'Pacifico',
-                        fontSize: 40.0,
+                        fontFamily: 'Cinzel',
+                        fontSize: 24.0,
                         color: Colors.white,
                         fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    'Application Developer',
+                    style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      fontSize: 18.0,
+                      color: Colors.white70,
+                    ),
                   ),
                 ],
               ),
