@@ -17,35 +17,79 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
           backgroundColor: Color_RedRose4,
           body: SafeArea(
-            child: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  CircleAvatar(
-                    radius: 50,
-                    backgroundImage: AssetImage('images/me.jpg'),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                CircleAvatar(
+                  radius: 75,
+                  backgroundImage: AssetImage('images/me.jpg'),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Text(
+                  'Andreas Blomqvist',
+                  style: TextStyle(
+                      fontFamily: 'Cinzel',
+                      fontSize: 24.0,
+                      color: Colors.amber[300],
+                      fontWeight: FontWeight.bold),
+                ),
+                Text(
+                  'Application Developer',
+                  style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontSize: 18.0,
+                    color: Colors.amber[500],
                   ),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                    'Andreas Blomqvist',
-                    style: TextStyle(
-                        fontFamily: 'Cinzel',
-                        fontSize: 24.0,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    'Application Developer',
-                    style: TextStyle(
-                      fontFamily: 'Pacifico',
-                      fontSize: 18.0,
-                      color: Colors.white70,
-                    ),
-                  ),
-                ],
-              ),
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                      color: Colors.amber[500],
+                      margin:
+                          EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+                      child: ListTile(
+                        leading: Icon(
+                          Icons.phone,
+                          color: Colors.white,
+                        ),
+                        title: Text(
+                          '000-123 456 789',
+                          style: TextStyle(
+                            color: Color_RedRose3,
+                            fontFamily: 'Cinzel',
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18.0,
+                          ),
+                        ),
+                      )),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                      color: Colors.amber[500],
+                      margin: EdgeInsets.symmetric(vertical: 2, horizontal: 20),
+                      child: ListTile(
+                        leading: Icon(
+                          Icons.email,
+                          color: Colors.white,
+                        ),
+                        title: Text(
+                          'andreas@email.com',
+                          style: TextStyle(
+                            color: Color_RedRose3,
+                            fontFamily: 'Cinzel',
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18.0,
+                          ),
+                        ),
+                      )),
+                )
+              ],
             ),
           )),
     );
