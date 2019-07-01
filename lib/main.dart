@@ -44,7 +44,11 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 30,
+                  width: 1000,
+                  child: Divider(
+                    color: Colors.amber[100],
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
